@@ -1,0 +1,13 @@
+
+
+.banner {
+    background: url(../../assets/image/package/package-banner.jpg) center/cover no-repeat ;
+}
+
+.banner .content {
+    width: 100%;
+    max-width: 701px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

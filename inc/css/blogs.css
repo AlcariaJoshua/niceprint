@@ -1,0 +1,141 @@
+
+.main-blogs {
+    background: #353235;
+}
+
+.main-blogs .title-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.main-blogs .search {
+    width: 100%;
+    max-width: 635px;
+}
+
+.asl_w_container {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    min-width: 200px;
+}
+
+.main-blogs div.asl_w .probox .promagnifier {
+    box-shadow: none;
+}
+
+.main-blogs #ajaxsearchlite1 .probox,
+div.asl_w .probox {
+    padding: 12px 24px;
+}
+
+#ajaxsearchlite1 .probox .proinput input,
+div.asl_w .probox .proinput input::placeholder {
+    color: #D7D4D7 !important;
+    font-size: clamp(0.75rem, 3vw, 1rem);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-blogs .blogs-con {
+    display: block;
+    margin-bottom: 60px;
+}
+
+
+.main-blogs .blogs-con .card .blog-title p{
+    height: 100%;
+    min-height: 72px;
+}
+
+.main-blogs .blogs-con .card:hover .image{
+    overflow: hidden;
+    transition: all ease .5s;
+}
+
+
+.main-blogs .blogs-con .card:hover .image img {
+    transform: scale(1.2);
+    transition: all ease .5s;
+
+}
+
+.main-blogs .blogs-con .card .blog-title .sub-title p {
+    min-height: unset;
+    height: unset;
+}
+
+
+.main-blogs .card .image img {
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.main-blogs .card h5 {
+    height: 100%;
+    min-height: 125px;
+}
+
+.main-blogs .row {
+    row-gap: 30px;
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.pagination a.prev,
+.pagination a.current {
+    border-radius: 5px;
+    background: var(--Secondary-2, #BD837C);
+    color: #FFFCFF;
+    padding: 13px 24px;
+}
+
+.pagination a {
+    border-radius: 5px;
+    border: 1px solid var(--Secondary-2, #BD837C);
+    color: #BD837C;
+    padding: 13px 24px;
+}
+
+.pagination a:hover {
+    background: #B34457;
+    transition: all ease .5s;
+    color: #FFFCFF;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+@media(max-width: 1199px){
+    .main-blogs .search{
+        max-width: 500px;
+    }
+
+}
+
+
+
+@media(max-width: 767px){
+    .main-blogs .search{
+        max-width: unset;
+    }
+
+    .main-blogs .title-search {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main-blogs .card h5 {
+        min-height: unset;
+    }
+}
+

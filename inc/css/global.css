@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6,
+
+p,
+
+a {
+
+    padding: 0px;
+
+    margin: 0px;
+
+}
+
+
+
+li {
+
+    list-style: none;
+
+}
+
+
+
+ul {
+
+    padding: 0px;
+
+    margin: 0px;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    font-family: "Epilogue", sans-serif;
+
+    font-size: 14px;
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    line-height: 130%;
+
+
+
+}
+
+
+
+.global-padding {
+
+    padding: 100px 0px;
+
+}
+
+.banner {
+    height: 100%;
+    min-height: 880px;
+    display: flex;
+    place-items: center;
+    position: relative;
+}
+
+
+
+img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+h1,
+.banner-title {
+
+    color: var(--Pink-White, #FFFCFF);
+
+    font-family: "Cardo", serif;
+
+    font-size: clamp(2.875rem, 3vw, 3.5rem);
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    line-height: 130%;
+
+    letter-spacing: -2.8px;
+
+}
+
+
+
+h2 {
+
+    color: var(--Pink-White, var(--Pink-White, #FFFCFF));
+
+    font-family: "Cardo", serif;
+
+    font-size: clamp(1.75rem, 1.625rem + 0.625vw, 2.375rem);
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    line-height: 130%;
+
+    letter-spacing: -2.4px;
+
+}
+
+h3 {
+    font-family: "Cardo", serif;
+    font-size: clamp(1.125rem, 1.075rem + 0.25vw, 1.375rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -1.1px;
+}
+
+h4 {
+
+    font-family: "Cardo", serif;
+    font-size: clamp(1.125rem, 1.1rem + 0.125vw, 1.25rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -1px;
+}
+
+
+h5 {
+
+    color: #FFFCFF;
+
+    font-family: "Cardo", serif;
+
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    line-height: 130%;
+
+    letter-spacing: -1.2px;
+
+}
+
+h6 {
+    color: #FFFCFF;
+
+    font-family: "Cardo", serif;
+
+    font-size: clamp(1rem, 3vw, 1.25rem);
+
+    font-style: normal;
+
+    font-weight: 700;
+
+    line-height: 130%;
+
+    letter-spacing: -1.2px;
+}
+
+
+
+p {
+
+    color: rgba(255, 252, 255, 0.80);
+
+    font-family: "Epilogue", sans-serif;
+
+    font-size: clamp(0.75rem, 3vw, 1rem);
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    line-height: 150%;
+
+}
+
+
+span {
+    font-family: "Cardo", serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    display: inline-block;
+}
+
+
+
+
+.wrapper {
+
+    width: 100%;
+
+    max-width: 1270px;
+
+    margin: 0 auto;
+
+
+
+}
+
+
+
+.cta {
+
+    border-radius: 5px;
+
+    background: #BD837C;
+
+    display: inline-flex;
+
+    height: 100%;
+
+    max-height: 50px;
+
+    padding: 15px 28px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    transition: all ease .5s;
+    line-height: normal;
+
+}
+
+
+
+.cta:hover {
+
+    background: #B34457;
+
+    transition: all ease .5s;
+
+}
+
+.btn-btn .a-color {
+    border: none;
+
+    background: none;
+
+    color: #bd837c;
+
+    font-weight: 700;
+
+    font-size: 14px;
+
+    font-family: "Epilogue", sans-serif;
+
+    transition: all ease 0.5s;
+}
+
+.btn-btn .a-color:hover {
+    color: #b34457;
+
+    transition: all ease 0.5s;
+}
+
+
+
+@media(max-width: 1199px) {
+
+    .global-padding {
+
+        padding: 70px 30px;
+
+    }
+
+
+}
+
+
+
+
+
+@media(max-width: 767px) {
+
+    .global-padding {
+
+        padding: 50px 20px;
+
+    }
+
+}

@@ -1,0 +1,214 @@
+
+
+
+.banner {
+    background: url(../../assets/image/photography-videography-services/bannerr-bg.jpg) center/cover no-repeat ;
+}
+
+.banner .content{
+    width: 100%;
+    max-width: 701px;
+}
+
+.banner .content h1 {
+    margin-bottom: 15px;
+}
+
+
+.banner .content p:nth-of-type(1){
+    margin-bottom: 30px;
+}
+
+
+.must-have {
+    background: #323032;
+}
+
+
+.image {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.must-have  .content .text {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.must-have  .content .text h2 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.must-have  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.must-have .card {
+    background: transparent;
+    border: none;
+    padding: 30px 0px;
+}
+
+.must-have .card .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.must-have .card .logo h3 {
+    color: #FFFCFF;
+}
+
+
+.must-have .card  .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.must-have .card ul li {
+    color: rgba(255, 252, 255, 0.80);
+    font-size: clamp(0.75rem, 3vw, 1rem);
+    list-style: circle;
+}
+
+.must-have .card ul {
+   
+    margin-left: 25px
+}
+
+
+.must-have  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 30px;
+}
+
+
+.unforgettable {
+    background: url(../../assets/image/photography-videography-services/unforgettable-bg.jpg) center/cover no-repeat ;
+}
+
+
+.first-sec {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+
+.first-sec  .image {
+    width: 100%;
+    max-width: 583px;
+}
+
+.unforgettable .card {
+    background: transparent;
+    border-radius: 5px;
+border: 0.5px solid var(--2nd-Study-P-Color, #D7D4D7);
+background: rgba(40, 35, 40, 0.25);
+backdrop-filter: blur(10px);
+height: 100%;
+padding: 30px;
+}
+
+.unforgettable .second-sec .row {
+    row-gap: 30px;
+}
+
+
+.unforgettable .second-sec .card .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.unforgettable .second-sec .card .logo  h3 {
+    color: #FFFCFF;
+}
+
+.best-packages .card-container {
+    display: unset;
+}
+
+
+.best-packages .col-lg-12:nth-child(3) .card p:nth-of-type(1),
+.best-packages .col-lg-12:nth-child(2) .card p:nth-of-type(2),
+.best-packages .col-lg-12:nth-child(2) .card p:nth-of-type(1) {
+    margin-bottom: 30px;
+}
+
+.first-sec .text h2{
+    margin-bottom: 15px;
+}
+
+
+.best-packages .card-container .row {
+    row-gap: 30px;
+}
+
+.book-our {
+    background: url(../../assets/image/photography-videography-services/book-our-bg.jpg) center/cover no-repeat ;
+    height: 100%;
+    min-height: 650px;
+    display: flex;
+    place-items: center;
+}
+
+.book-our .content {
+    width: 100%;
+    max-width: 945px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.book-our .content h2 {
+    margin-bottom: 15px;
+}
+
+.book-our .content p {
+    margin-bottom: 30px;
+}
+
+@media(max-width: 991px){
+
+    .must-have  .content .text h2 {
+        max-width: unset;
+    }
+
+    .first-sec{
+        flex-direction: column-reverse;
+    }
+
+    .first-sec .image img {
+        max-height: 500px;
+        
+    }
+
+    .first-sec .image {
+        max-width: unset;
+    }
+
+    .must-have .card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .must-have .card {
+        padding: 10px 0px;
+    }
+}

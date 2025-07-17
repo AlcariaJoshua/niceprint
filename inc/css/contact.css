@@ -1,0 +1,40 @@
+.get-in-touch {
+    background: url(../../assets/image/contact-page-bg.jpg) center/cover no-repeat;
+}
+
+
+section.get-in-touch .card-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+section.get-in-touch .card {
+    border-radius: 5px;
+    border: 0.5px solid #D7D4D7;
+    background: rgba(40, 35, 40, 0.50);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+}
+
+section.get-in-touch .card-title h3 {
+    color: #FFFCFF;
+}
+
+.get-in-touch .text {
+    margin-bottom: 60px;
+}
+
+
+.get-in-touch .row {
+    row-gap: 30px;
+}
+
+section.get-in-touch .card .contact-details a {
+    color: #D7D4D7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+
+}

@@ -1,0 +1,273 @@
+.banner {
+    background: url(../../assets/image/package/wedding-packages-banner.jpg) center/cover no-repeat;
+}
+
+.banner .content {
+    width: 100%;
+    max-width: 701px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+span {
+    color: #fff;
+}
+
+.packages {
+    background: #343134;
+}
+
+.packages .content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.packages .content .text {
+    width: 100%;
+    max-width: 944px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+ul#pills-tab {
+    justify-content: center;
+    border: none;
+    width: 100%;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0.5px solid #D7D4D7;
+    background: #353235;
+    padding: 6px;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+
+.nav-pills .nav-link {
+    font-family: "Epilogue", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    border-radius: 5px;
+    padding: 15px 28px;
+    color: #D7D4D7;
+    width: 100%;
+    min-width: 152px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+
+    color: unset;
+    background: unset;
+}
+
+button#pills-standard-tab:hover,
+button#pills-standard-tab.active {
+    color: #B34457;
+    background: #fff;
+}
+
+button#pills-premium-tab:hover,
+button#pills-premium-tab.active {
+    background: #B34457;
+    color: #fff;
+}
+
+.package-con-card .card {
+    padding: 30px;
+    background: transparent;
+    border-radius: 5px;
+    border: 0.5px solid #D7D4D7;
+    background: #353235;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 403px;
+}
+
+.package-con-card .card h3 {
+    color: #FFFCFF;
+    font-size: 22px;
+}
+
+.inclusion .inclusion-text {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.inclusion .inclusion-text:last-child {
+    margin-bottom: 0px;
+}
+
+.term-condition p {
+    color: #BD837C;
+}
+
+.package-con-card .btn-btn {
+    width: 100%;
+}
+
+.package-con-card .btn-btn a {
+    display: flex;
+}
+
+.package-con-card .card .show-more {
+    border-radius: 5px;
+    border: 0.5px solid #D7D4D7;
+    background: #353235;
+    width: 100%;
+    text-align: center;
+    padding: 15px 28px;
+    color: #D7D4D7;
+    font-family: "Epilogue", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    cursor: pointer;
+}
+
+.package-con-card .card .show-more button {
+    color: #D7D4D7;
+}
+
+.package-con-card .card:nth-child(2)  {
+    background: #fff;
+}
+
+.package-con-card .card:nth-child(2)  p {
+    color: #554F56;
+}
+
+.package-con-card .card:nth-child(2) h3 {
+    color: #121212;
+}
+
+.package-con-card .card:nth-child(2)  .term-condition p {
+    color: #B34457;
+}
+
+.package-con-card .card:nth-child(2) .btn-btn a {
+    background: #B34457;
+}
+
+.package-con-card .card:nth-child(2)  .show-more {
+    border-radius: 5px;
+    border: 1px solid #B7B7B7;
+    background: #FFF;
+    color: #444444;
+
+}
+
+.package-con-card .card:nth-child(2) .show-more button {
+    color: #444444;
+}
+
+
+.contact-us-now {
+    background: #343134;
+    padding: 50px;
+}
+
+.contact-us-now .content {
+    border-radius: 5px;
+    border: 8px solid var(--Pink-White, #FFFCFF);
+    padding: 150px 100px;
+    text-align: center;
+    background: url(../../assets/image/package/contact-us-now-bg.jpg) center/cover no-repeat ;
+}
+
+.contact-us-now .content h2 {
+    margin-bottom: 15px;
+}
+
+.contact-us-now .content p {
+    margin-bottom: 30px;
+}
+
+
+.package-con-card .row {
+    row-gap: 30px;
+}
+
+.package-con-card .card .logo img {
+    width: 60px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.package-con-card .card  .inclusion .logo img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.package-con-card .card  .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.package-con-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+@media(max-width: 1199px){
+    .package-con-card .card{
+        align-items: unset;
+    }
+
+    .package-con-card .card .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 991px){
+    .package-con-card{
+        flex-direction: column;
+    }
+
+    .package-con-card .card {
+        max-width: unset;
+    }
+
+}
+
+@media(max-width: 767px){
+    li.nav-item {
+        width: 100%;
+    }
+
+    .contact-us-now .content {
+        padding: 50px;
+    }
+
+    ul#pills-tab {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media(max-width: 390px){
+
+    .contact-us-now,
+    .contact-us-now .content {
+        padding: 30px;
+    }
+}

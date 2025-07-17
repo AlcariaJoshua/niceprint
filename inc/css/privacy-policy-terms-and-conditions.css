@@ -1,0 +1,71 @@
+.privacy_policy_banner {
+	background-image: url(../../assets/image/privacy_policy_banner_bg.jpg);
+	height: 100%;
+	min-height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+}
+
+.terms_and_conditions_banner {
+	background-image: url(../../assets/image/terms_and_conditions_banner_bg.jpg);
+	height: 100%;
+	min-height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-content: center;
+}
+
+.privacy_policy_banner h1,
+.terms_and_conditions_banner h1 {
+	margin-bottom: 15px;
+}
+
+.privacy_policy_content,
+.terms_and_conditions_content {
+	background: #323032;
+}
+
+.privacy_policy_content h2,
+.terms_and_conditions_content h2 {
+	margin-top: 60px;
+}
+
+.privacy_policy_content p,
+.terms_and_conditions_content p {
+	margin-top: 15px;
+}
+
+.privacy_policy_content p,
+.terms_and_conditions_content p {
+	margin-top: 15px;
+}
+
+.privacy_policy_content ul,
+.terms_and_conditions_content ul {
+	margin-top: 15px;
+}
+
+.privacy_policy_content li,
+.terms_and_conditions_content li {
+	list-style: disc;
+	color: var(--Pink-White, #fffcff);
+	font-family: Epilogue;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.privacy_policy_content a,
+.terms_and_conditions_content a {
+	color: var(--Secondary-2, #bd837c);
+	font-family: Epilogue;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	text-decoration-line: underline;
+}

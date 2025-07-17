@@ -1,0 +1,99 @@
+.others-banner {
+    background: #353235;
+}
+
+.others-banner .content .text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 944px;
+    margin: 0 auto;
+}
+
+.others-banner  .collecttion-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.others-banner .card {
+    padding: 10px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.others-banner .card .image img{
+    transition: all ease .5s;
+}
+
+.others-banner .card .image {
+    overflow: hidden;
+}
+
+.others-banner .card:hover .image img {
+    transform: scale(1.2);
+    transition: all ease .5s;
+    filter: contrast(0.5);
+}
+
+.others-banner .card .card-text span{
+    color: #BD837C;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.others-banner .card .card-text h4 {
+    margin-bottom: 16px;
+}
+
+
+.others-banner .card .card-text h4 {
+    color: #121212;
+}
+
+.others-banner .card .card-text p{
+    color: rgba(85, 79, 86, 0.80);
+}
+
+.others-banner .card  .card-text {
+    padding: 15px;
+}
+
+.others-banner .content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.package-info {
+    background: #353235;
+}
+
+.package-info .content {
+    text-align: center;
+    padding: 100px;
+    border-radius: 5px;
+    border: 8px solid #FFFCFF;
+}
+
+.package-info .content h2 {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+
+
+.package-info .content p {
+    margin-bottom: 30px;
+}
+
+@media(max-width: 767px){
+    .others-banner .collecttion-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

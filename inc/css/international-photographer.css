@@ -1,0 +1,236 @@
+
+
+
+.banner-internation-photgrapher {
+    background: url(../../assets/image/international-photographer/int-photo-banner.jpg) center/cover no-repeat ;
+}
+
+
+.banner-internation-photgrapher .content {
+    max-width: 800px;
+}
+
+.banner-internation-photgrapher .content p:nth-child(2),
+.banner-internation-photgrapher .content h1 {
+    margin-bottom: 15px;
+}
+
+
+
+.what-inter-photo {
+    background: #353235;
+}
+
+.what-inter-photo .content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.image {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.what-inter-photo .content h2 {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.why-choose {
+    background: url(../../assets/image/international-photographer/why-choose-bg.jpg)  center/cover no-repeat ;
+}
+
+
+.why-choose .content {
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.why-choose .content .text p:first-child {
+    margin-bottom: 15px;
+}
+
+.why-choose .content .title h2 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.global-event {
+    background: #353235;
+}
+
+.global-event  .first-sec {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.countries-captured .content,
+.global-event .content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.countries-captured .global-event-card,
+.global-event .global-event-card {
+    border-radius: 5px;
+    border: 0.5px solid  #D7D4D7;
+    background: rgba(40, 35, 40, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.countries-captured .card-container .row,
+.global-event .card-container .row{
+    row-gap: 30px;
+}
+
+.global-event .card-container .global-event-card:last-child{
+    
+}
+
+.countries-captured .global-event-card img,
+.global-event .global-event-card img {
+    object-fit: contain;
+}
+
+.countries-captured .global-event-card .logo,
+.global-event .global-event-card .logo {
+    width: 51px;
+    height: 51px;
+}
+
+.countries-captured .global-event-card h3,
+.global-event .global-event-card h3 {
+    color: #fff;
+}
+
+
+.countries-captured {
+    background: #2C272C;
+}
+
+.countries-captured  .first-sec {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 60px;
+}
+
+.contact-international-team {
+    background: url(../../assets/image/international-photographer/international-team-bg.jpg) center/cover no-repeat ;
+    height: 100%;
+    min-height: 650px;
+    display: flex;
+    place-items: center;
+}
+
+.contact-international-team  .content {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.contact-international-team  .content h3 {
+    margin-bottom: 15px;
+    font-size: 38px;
+    color: #fff;
+}
+
+.contact-international-team  .content p {
+    margin-bottom: 30px;
+}
+
+.first-sec .text h2 {
+    margin-bottom: 15px;
+}
+
+.first-sec .text  {
+    width: 100%;
+}
+
+.first-sec .image {
+    min-width: 605px;
+    max-width: 605px;
+}
+
+@media(max-width: 1199px){
+    .first-sec .image{
+        min-width: unset;
+        max-width: unset;
+    }
+}
+
+@media(max-width: 991px){
+
+    .what-inter-photo .content h2{
+        max-width: unset;
+    }
+
+    
+    .what-inter-photo .content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .what-inter-photo .content .image img {
+        max-height: 500px;
+    }
+
+
+    .countries-captured .first-sec,
+    .global-event .first-sec{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .countries-captured .first-sec .image img,
+    .global-event .first-sec .image img {
+        max-height: 500px;
+    }
+
+}
+
+
+@media(max-width: 767px){
+
+    .countries-captured .first-sec .image,
+    .global-event .first-sec .image {
+        max-height: unset;
+    }
+
+    .what-inter-photo .content{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .countries-captured .first-sec,
+    .global-event .first-sec {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .contact-international-team {
+        min-height: unset;
+    }
+}

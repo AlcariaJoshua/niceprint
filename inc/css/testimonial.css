@@ -1,0 +1,134 @@
+.banner {
+    background: url(../../assets/image/testimonial-bg.jpg) center/cover no-repeat;
+}
+
+.banner .content {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.banner .content span {
+    color: #FFFCFF;
+}
+
+.testimonial-page {
+    background: #323032;
+}
+
+
+.testimonial-page  .avatar-con {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.testimonial-page .star-con {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-page  .star-con img {
+    width: 16px;
+    height: 16px;
+}
+
+.testimonial-page  .image img {
+    width: 62px;
+    height: 62px;
+}
+
+.testimonial-page .card {
+    border-radius: 5px;
+    border: 0.5px solid var(--Pink-White, #FFFCFF);
+    background: transparent;
+    padding: 60px;
+}
+
+.testimonial-page .testimonial-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+
+.testimonial-page  .avatar-con .name-con h6 {
+    margin-bottom: 15px;
+}
+
+
+.testimonial-page .text {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.testimonial-page .text span {
+    color: #FFFCFF;
+    margin-bottom: 15px;
+}
+
+.testimonial-page .text h2 {
+    margin-bottom: 15px;
+}
+
+
+.testimonial-page  .btn-btn {
+    text-align: center;
+}
+
+
+.contact-us-now {
+    background: #323032;
+}
+
+.contact-us-now .content{
+    background: url(../../assets/image/contact-us-now-bg.jpg) center/cover no-repeat ;
+    padding: 150px 100px;
+    text-align: center;
+    border-radius: 5px;
+border: 8px solid var(--Pink-White, #FFFCFF);
+
+
+}
+
+.contact-us-now .content h2 {
+    margin-bottom: 15px;
+}
+
+.contact-us-now .content p {
+    margin-bottom: 30px;
+}
+
+
+@media(max-width: 991px){
+   
+    .testimonial-page .testimonial-con {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .contact-us-now .content {
+        padding: 50px;
+    }
+
+    .testimonial-page .card{
+        padding: 30px;
+    }
+
+
+    
+}
+
+@media(max-width: 767px){
+    .contact-us-now .content{
+        padding: 30px;
+    }
+}   

@@ -1,0 +1,39 @@
+
+
+.banner-sinlge-kiddie {
+    background: url(../../assets/image/kiddie/single-kiddie-banner.jpg) center/cover no-repeat ;
+}
+
+.gallery .image:first-child {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.gallery .image:nth-child(2) {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.gallery .image:nth-child(3) {
+    grid-area: 1 / 3 / 5 / 4;
+}
+
+.gallery .image:nth-child(4) {
+    grid-area: 4 / 1 / 6 / 2;
+}
+.gallery .image:nth-child(5) {
+    grid-area: 3 / 2 / 7 / 3;
+}
+.gallery .image:nth-child(6) {
+    grid-area: 5 / 3 / 8 / 4;
+}
+.gallery .image:nth-child(7) {
+    grid-area: 6 / 1 / 8 / 2;
+}
+.gallery .image:nth-child(8) {
+    grid-area: 7 / 2 / 10 / 3;
+}
+.gallery .image:nth-child(9) {
+    grid-area: 8 / 3 / 10 / 4;
+}
+.gallery .image:nth-child(10) {
+    grid-area: 8 / 1 / 10 / 2;
+}

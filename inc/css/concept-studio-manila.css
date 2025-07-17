@@ -1,0 +1,256 @@
+.banner-concept-room {
+    background: url(../../assets/image/concept-room/concept-room-banner.jpg) center/cover no-repeat;
+}
+
+.banner-concept-room .content {
+    width: 100%;
+    max-width: 701px;
+}
+
+.banner-concept-room .content h1 {
+    margin-bottom: 15px;
+}
+
+.banner-concept-room .content p:nth-of-type(1) {
+    margin-bottom: 30px;
+}
+
+.concept-studio {
+    background: #353235;
+}
+
+.concept-studio .content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.concept-studio .content .text h2 {
+    margin-bottom: 15px;
+}
+
+.image {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.first-sec .text,
+.content .text {
+    width: 100%;
+}
+
+.why-choose-concept-room {
+    background: #2C272C;
+}
+
+.card {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+.why-choose-card .row {
+    row-gap: 30px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.logo-title {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo-title h3 {
+    color: #fff;
+}
+
+.why-choose-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 60px;
+
+}
+
+.why-choose-concept-room .content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.why-choose-concept-room .text {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 944px;
+    gap: 15px;
+    place-self: center;
+}
+
+.why-choose-concept-room .text h2 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.concept-studio-service {
+    background: #353235;
+}
+
+.different-types .first-sec,
+.concept-studio-service .first-sec {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.different-types .card,
+.concept-studio-service .card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.different-types .card h3,
+.concept-studio-service .card h3 {
+    color: #fff;
+}
+
+.second-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.second-sec .card {
+    border-radius: 5px;
+    border: 0.5px solid var(--2nd-Study-P-Color, #D7D4D7);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+}
+
+.different-types {
+    background: #2C272C;
+}
+
+.different-types .first-sec {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.benifits-using-concept-studios {
+    background: #353235;
+}
+
+.visit-us {
+    background: url(../../assets/image/concept-room/visit-us-bg.jpg) center/cover no-repeat;
+    height: 100%;
+    min-height: 650px;
+    display: flex;
+    place-items: center;
+}
+
+.visit-us .content {
+    width: 100%;
+    max-width: 944px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.visit-us .content h2 {
+    margin-bottom: 15px;
+}
+
+
+.visit-us .content p {
+    margin-bottom: 30px;
+}
+
+.first-sec h2 {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.why-choose-card .card {
+    padding: 30px 0px ;
+}
+
+.different-types .first-sec h2  {
+    width: 100%;
+    max-width: 400px;
+}
+
+.visit-us .content h2 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 991px) {
+
+
+    .visit-us .content h2 {
+        max-width: unset;
+    }
+
+    .different-types .first-sec h2  {
+        max-width: unset;
+    }
+
+    .different-types .first-sec,
+    .concept-studio .content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .concept-studio-service .first-sec {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .different-types .first-sec .text,
+    .concept-studio .content .text {
+        max-width: unset;
+    }
+
+    .different-types .first-sec,
+    .concept-studio-service .first-sec{
+        margin-bottom: 30px;
+    }
+
+    .first-sec h2 {
+        max-width: unset;
+    }
+
+
+}
+
+@media(max-width: 767px) {
+
+    .why-choose-concept-room .content {
+        gap: 30px;
+    }
+
+    .second-sec,
+    .why-choose-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .visit-us {
+        min-height: unset;
+    }
+}

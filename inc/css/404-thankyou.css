@@ -1,0 +1,33 @@
+.template-404-thankyou h1,
+.template-404-thankyou p,
+.template-404-thankyou span{
+   color: #FFFCFF;
+}
+
+.template-404-thankyou  {
+    background: url(../../assets/image/404-thankyou-bg.jpg) center/cover no-repeat ;
+    height: 100%;
+    min-height: 1000px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+}
+
+.template-404-thankyou .content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.template-404-thankyou .content span{
+    margin-bottom: 15px;
+}
+
+.template-404-thankyou .content h1 {
+    margin-bottom: 15px;
+}
+
+.template-404-thankyou .content p {
+    margin-bottom: 30px;
+}
